@@ -6,9 +6,11 @@ pipeline {
       echo "Inside Cleaning Stage"
       }
   }
+  
     stage("Finish Stage"){
       steps{
             echo "Inside Finish Stage"
       }
     }
+  }
 }
