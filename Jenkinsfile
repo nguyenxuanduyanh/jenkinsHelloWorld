@@ -20,7 +20,7 @@ pipeline {
     }
     stage("Email Stage"){
       steps{
-        mail to: "anhnxd.b8014@st.usth.edu.vn" subject: 'The Pipeline failed :('
+        mail to: "anhnxd.b8014@st.usth.edu.vn", subject: 'The Pipeline failed :('
       }
     }
   }
